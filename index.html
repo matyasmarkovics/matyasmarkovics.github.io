@@ -1,16 +1,15 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
     width="300" height="300" style="display: block; position: absolute; left:50%; top:50%; margin-left: -150px; margin-top: -150px;">
     <defs>
-        <pattern id="facebook_icon" x="0" y="0" patternUnits="userSpaceOnUse" height="60" width="60">
-            <image x="0" y="0" xlink:href="https://upload.wikimedia.org/wikipedia/commons/c/c2/F_icon.svg"></image>
-        </pattern>
+    <text id="Facebooktext" x="0" y="0" font-family="sans-serif" font-size="30px" fill="blue">facebook</text>
+    <image  id="Facebookicon" x="0" y="0" height="60" width="60" xlink:href="https://upload.wikimedia.org/wikipedia/commons/c/c2/F_icon.svg"></image>
     </defs>
     <g transform="rotate(22.5) translate(45, -70)">
     <a xlink:href="http://www.w3.org">
-        <circle cx="80" cy="80" r="30" stroke="black" stroke-width="2" fill="green" />
+        <circle cx="80" cy="80" r="30" stroke="black" stroke-width="2" fill="url(#Facebooktext)" />
     </a>
     <a xlink:href="https://www.facebook.com/twoem">
-        <circle cx="50" cy="150" r="30" stroke="black" stroke-width="2" fill="url(#facebook_icon)" />
+        <circle cx="50" cy="150" r="30" stroke="black" stroke-width="2" fill="url(#Facebookicon)" />
     </a>
     <a xlink:href="https://www.linkedin.com/in/matyasmarkovics">
         <circle cx="80" cy="220" r="30" stroke="black" stroke-width="2" fill="yellow" />
