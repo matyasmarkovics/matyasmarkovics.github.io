@@ -7,7 +7,8 @@
 
 # Site settings
 title: One Aware Being
-email: oneawarebeing@gmail.com
+email_user: oneawarebeing
+email_domain: gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   The only unquestionable experience is our Being and the Knowing of it.
   In order to experience a World collectively our Aware Being has to be One and the same.

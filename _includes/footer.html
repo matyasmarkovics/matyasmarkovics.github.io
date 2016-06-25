@@ -2,16 +2,25 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
+    <!-- <h2 class="footer-heading">{{ site.title }}</h2> -->
+    <p>{{ site.description }} -
+    <script language="javascript">
+      var username = "{{ site.email_user }}";
+      var hostname = "{{ site.email_domain }}";
+      var linktext = username + "@" + hostname ;
+      document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+    </script>
+    </p>
+    
+    <!--
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li>
+          </li>
         </ul>
       </div>
-
+      
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
           {% if site.github_username %}
@@ -29,9 +38,9 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
       </div>
     </div>
+    -->
 
   </div>
 
