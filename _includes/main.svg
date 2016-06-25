@@ -1,0 +1,75 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="300" height="300" style="display: block; position: absolute; left:50%; top:50%; margin-left: -150px; margin-top: -150px;">
+    <defs>
+      <pattern id="FacebookIcon" x="0" y="0" width="1" height="1">
+        <rect x="0" y="0" width="60" height="60" fill="#3B5998" />
+        <text x="10" y="50" font-family="Verdana" font-size="55" fill="white" >facebook</text>
+      </pattern>
+      <pattern id="LinkedInIcon" x="0" y="0" width="1" height="1">
+        <rect x="0" y="0" width="60" height="60" fill="#0077b5" />
+        <text x="10" y="50" font-family="Verdana" font-size="55" fill="white" >in</text>
+      </pattern>
+      <pattern id="FlickrIcon" x="0" y="0" width="1" height="1">
+        <rect x="0" y="0" width="60" height="60" fill="#FF0084" />
+        <text x="10" y="50" font-family="Verdana" font-size="55" fill="white" >fr</text>
+      </pattern>
+      <pattern id="IssuuIcon" x="0" y="0" width="1" height="1">
+        <rect x="0" y="0" width="60" height="60" fill="#F36D5D" />
+        <text x="10" y="50" font-family="Verdana" font-size="55" fill="white" >issuu</text>
+      </pattern>
+      <pattern id="YouTubeIcon" x="0" y="0" width="1" height="1">
+        <rect x="0" y="0" width="60" height="60" fill="#CD201F" />
+        <text x="10" y="50" font-family="Verdana" font-size="55" fill="white" >tube</text>
+      </pattern>
+      <pattern id="GitHubIcon" x="0" y="0" width="1" height="1">
+        <rect x="0" y="0" width="60" height="60" fill="#333333" />
+        <text x="10" y="50" font-family="Verdana" font-size="55" fill="white" >github</text>
+      </pattern>
+      <pattern id="GPlusIcon" x="0" y="0" width="1" height="1">
+        <rect x="0" y="0" width="60" height="60" fill="#DC4E41" />
+        <text x="10" y="50" font-family="Verdana" font-size="55" fill="white" >g+</text>
+      </pattern>
+      <pattern id="PicasaIcon" x="0" y="0" width="1" height="1">
+        <rect x="0" y="0" width="60" height="60" fill="purple" />
+        <text x="10" y="50" font-family="Verdana" font-size="55" fill="white" >picasa</text>
+      </pattern>
+      <pattern id="Profile" x="0" y="0" height="1" width="1">
+        <g transform="rotate(-22.5)">
+        <image x="-23" y="16" width="100" height="100" xlink:href="assets/profile.jpg"></image>
+        </g>
+      </pattern>
+    </defs>
+    <g transform="rotate(22.5) translate(45, -70)">
+    <a xlink:href="http://picasaweb.google.com/markovics.matyas">
+        <circle cx="80" cy="80" r="30" stroke="black" stroke-width="1" fill="url(#PicasaIcon)" />
+    </a>
+    <a xlink:href="https://www.linkedin.com/in/matyasmarkovics">
+        <circle cx="80" cy="220" r="30" stroke="black" stroke-width="1" fill="url(#LinkedInIcon)" />
+    </a>
+    <a xlink:href="https://www.flickr.com/photos/40606896@N02/">
+        <circle cx="150" cy="50" r="30" stroke="black" stroke-width="1" fill="url(#FlickrIcon)" />
+    </a>
+    <a xlink:href="http://www.w3.org">
+        <circle cx="150" cy="150" r="50" stroke="black" stroke-width="1" fill="url(#Profile)" />
+    </a>
+    <a xlink:href="https://issuu.com/matyasmarkovics8">
+        <circle cx="150" cy="250" r="30" stroke="black" stroke-width="1" fill="url(#IssuuIcon)" />
+    </a>
+    <a xlink:href="https://plus.google.com/+MatyasMarkovics">
+        <circle cx="50" cy="150" r="30" stroke="black" stroke-width="1" fill="url(#GPlusIcon)" />
+    </a>
+    <a xlink:href="https://www.facebook.com/twoem">
+        <circle cx="220" cy="80" r="30" stroke="black" stroke-width="1" fill="url(#FacebookIcon)" />
+    </a>
+    <a xlink:href="https://www.youtube.com/c/MatyasMarkovics">
+        <circle cx="250" cy="150" r="30" stroke="black" stroke-width="1" fill="url(#YouTubeIcon)" />
+    </a>
+    <a xlink:href="https://github.com/matyasmarkovics">
+        <circle cx="220" cy="220" r="30" stroke="black" stroke-width="1" fill="url(#GitHubIcon)" />
+    </a>
+    </g>
+</svg>
+<!--
+<div data-configid="7468835/11794430" style="width:800px; height:565px;" class="issuuembed"></div>
+<script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+-->
