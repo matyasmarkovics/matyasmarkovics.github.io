@@ -73,7 +73,7 @@ that they have to be recharged periodically.
 Inside the game only change is permanent.
 Everything in there is changing,
 so the players at some point have agreed to keep count of their recharges.
-1 year is approximatly 365 recharges.
+1 year is approximately 365 recharges.
 Yes, even that varies from year to year.
 I guess some beginners find this counting useful.
 There are many subtle things you have to learn as you go,

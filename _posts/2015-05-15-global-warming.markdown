@@ -10,4 +10,4 @@ Global warming and the human alienation from Nature are simply metaphors.
 They only show you for how long have You been ignoring your heartfelt desires.
 
 You think Global warming is an issue? Look at your wasteful lifestyle in the city!  
-You worried about Animals or Humans? Don't give Your Life away for a good pay.
+You worried about Animals or Humans? Don't give _Your_ Life away for a good pay.
