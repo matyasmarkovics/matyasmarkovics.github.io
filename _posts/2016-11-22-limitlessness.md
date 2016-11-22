@@ -3,7 +3,7 @@ layout: post
 title:  "Limitlessness"
 date:   2016-11-22 20:21:00 +0200
 ---
-Violence and Resistance are brothers of twin  
+> Violence and Resistance are brothers of twin  
 womb of Control that they’re conceived within  
 Fate planted their seed in a playful harmony  
 for Freedom cannot be esteemed; only in Slavery  
