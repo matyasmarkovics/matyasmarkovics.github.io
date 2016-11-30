@@ -13,9 +13,15 @@ description: > # this means to ignore newlines until "baseurl:"
   The only unquestionable experience is our Being and the Knowing of it.
   In order to experience a World collectively our Aware Being has to be One and the same.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://matyasmarkovics.github.io" # the base hostname & protocol for your site
+url: "http://awarebeing.one" # the base hostname & protocol for your site
+
+author: "Matyas Markovics"
+fb_profile_id: "twoem"
+fb_app_id: "1963719427188607"
+og_locale: "en_US"
 #twitter_username:
 #github_username:  matyasmarkovics
 
 # Build settings
 markdown: kramdown
+
