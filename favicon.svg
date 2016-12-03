@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="-85 -65 160 160">
+    <g> 
+        <circle class="spiral" cx="6.283185307179586" cy="0" r="1" stroke="black" stroke-width="1" fill="#FFF"></circle> 
+        <circle class="spiral" cx="4.0512573564541965" cy="6.309459501506764" r="2" stroke="black" stroke-width="1" fill="#EEE"></circle>
+        <circle class="spiral" cx="-3.7236834327001684" cy="8.136396738616359" r="3" stroke="black" stroke-width="1" fill="#DDD"></circle>
+        <circle class="spiral" cx="-10.571368241268765" cy="1.5069119983580703" r="4" stroke="black" stroke-width="1" fill="#CCC"></circle>
+        <circle class="spiral" cx="-8.329395206822822" cy="-9.643951039560022" r="5" stroke="black" stroke-width="1" fill="#BBB"></circle>
+        <circle class="spiral" cx="4.3136711058310455" cy="-14.582429905274154" r="6" stroke="black" stroke-width="1" fill="#AAA"></circle>
+        <circle class="spiral" cx="17.424767433901355" cy="-5.070715206704642" r="7" stroke="black" stroke-width="1" fill="#999"></circle>
+        <circle class="spiral" cx="16.327019573058358" cy="14.228148270842174" r="8" stroke="black" stroke-width="1" fill="#888"></circle>
+        <circle class="spiral" cx="-3.760348610917161" cy="25.569285525275454" r="9" stroke="black" stroke-width="1" fill="#777"></circle>
+        <circle class="spiral" cx="-28.100796466283903" cy="12.710430284487284" r="10" stroke="black" stroke-width="1" fill="#666"></circle>
+        <circle class="spiral" cx="-30.882346142366657" cy="-20.022903498742778" r="11" stroke="black" stroke-width="1" fill="#555"></circle>
+        <circle class="spiral" cx="0.19438655305490532" cy="-43.92180620206918" r="12" stroke="black" stroke-width="1" fill="#444"></circle>
+        <circle class="spiral" cx="44.230808711066445" cy="-28.12459887166273" r="13" stroke="black" stroke-width="1" fill="#333"></circle>
+        <circle class="spiral" cx="56.76124279543099" cy="26.281654946023615" r="14" stroke="black" stroke-width="1" fill="#222"></circle>
+        <circle class="spiral" cx="10.206823734560372" cy="73.94442275670956" r="15" stroke="black" stroke-width="1" fill="#111"></circle>
+        <circle class="spiral" cx="-67.67250211755247" cy="57.92721523559267" r="16" stroke="black" stroke-width="1" fill="#000"></circle>
+    </g>
+</svg>

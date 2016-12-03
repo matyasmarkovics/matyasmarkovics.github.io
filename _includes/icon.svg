@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+     width="{{ include.icon_size }}" height="{{ include.icon_size }}"
+     viewBox="-85 -65 160 160">
+    <g>
+    <!-- transform="translate({{ include.icon_size | divided_by: 2. | times: 1.1 }}, {{ include.icon_size | divided_by: 2. | times: 0.8 }}) scale({{ include.icon_size | divided_by: 160. }})" -->
+    {% assign hex = "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F" | split: ", " | reverse %}
+    {% for i in (0..15) %}
+            <circle class="spiral"
+                    cx="{{ i }}" cy="{{ i }}" r="{{ i | plus: 1 }}" 
+                    stroke="black" stroke-width="1"
+                    fill="#{{ hex[i] }}{{ hex[i] }}{{ hex[i] }}" />
+    {% endfor %}
+    </g>
+    <script type="application/ecmascript"> <![CDATA[
+        var a = Math.PI * 2, b = Math.SQRT1_2 / 4;
+        
+        function xy(t, f) { return a * Math.pow(Math.E, b * t) * f(t); }
+        function x(t) { return xy(t, Math.cos); }
+        function y(t) { return xy(t, Math.sin); }
+        function seti(c) {
+            c.setAttribute("cx", x(c.getAttribute("cx")));
+            c.setAttribute("cy", y(c.getAttribute("cy")));
+        }
+        
+        document.querySelectorAll("circle.spiral").forEach(seti);
+    ]]> </script>
+</svg>

@@ -13,6 +13,16 @@
     position: relative;
 }
 
+.site-icon {
+    margin: 9px;
+    margin-left: 0px;
+    float: left;
+    background-color: #fdfdfd;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    line-height: 0px;
+}
+
 .site-title {
     font-size: 26px;
     font-weight: 300;
@@ -42,6 +52,9 @@
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 20px;
+        }
+        @include media-query($on-palm) {
+          color: $grey-color-dark;
         }
     }
 
